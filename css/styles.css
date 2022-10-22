@@ -127,10 +127,29 @@ img.logo {
     height: 20rem;
 }
 
+/* LOCATIONS SECTION */
+.locations-section-container {
+    padding: var(--md-size);
+    background-color: var(--secondary);
+}
+
 footer {
     background-color: var(--primary);
-    height: 7.5rem;
-
+    min-height: 7.5rem;
+    
+    
     /* position: fixed;
     bottom: 0; */
+}
+
+footer li {
+    list-style-type: none;
+}
+
+footer a {
+   text-decoration: none; 
+}
+
+footer form {
+    color: black;
 }
