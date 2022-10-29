@@ -71,6 +71,12 @@ body {
     width: 45%;
 }
 
+@media only screen and (max-width: 930px) {
+    .column-md {
+        float: none;
+    }
+}
+
 h1.heading-title {
     color: var(--dark);
     font-size: 4rem; /* 64px */
@@ -125,6 +131,17 @@ img.logo {
 .pet-pal-img {
     width: 30rem;
     height: 20rem;
+}
+
+@media only screen and (max-width: 610px) {
+    .shop-section-img {
+        width: 9.5rem;
+        height: 8rem;
+    }
+    .pet-pal-img {
+        width: 10rem;
+        height: auto;
+    }
 }
 
 /* LOCATIONS SECTION */
