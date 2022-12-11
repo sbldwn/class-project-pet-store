@@ -112,6 +112,8 @@ nav > ul > li > a:hover {
 
 img.logo {
     width: 140px;
+    background-color: darkslategrey;
+    padding: 10px;
 }
 
 .heading-title {
@@ -148,6 +150,13 @@ img.logo {
 .locations-section-container {
     padding: var(--md-size);
     background-color: var(--secondary);
+}
+
+.locations-section-container > ul {
+    list-style-type: none;  
+}
+ul {
+    list-style-type: none;
 }
 
 footer {
